@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <title>Sur moi</title>
+    <link href="style.css" rel="stylesheet">
+	<meta name="author" content="Mamadou Ba">
+	<link rel="shortcut icon" type="image/x-icon" href="path/to/favicon.ico">
+</head>
+<header>
+  <nav>
+    <ul>
+      <li class="page"> <a href="index.html">Home</a></li>
+      <li class="page"> <a href="Infos.html">Sur moi</a></li>      
+	  <li class="page"> <a href="Projets.html">Mes projets</a></li>
+    </ul>
+  </nav>
+</header>
+
+<h5>Ce qui m'intéresse:</h5>
+  <p class="lang">
+  Je veux apprendre ces langages-ci:
+</p>
+<div class="langage">
+  <img class="python_image" src="python.png">
+  <h6>Python</h6>
+</div>
+<div class="langage">
+  <img class="java_image" src="java.png">
+  <h6>Java</h6>
+</div>
+<div class="langage">
+  <img class="cpp_image" src="c++.png">
+  <h6>C++</h6>
+</div>
+<div class="langage">
+  <img class="Csharp_image" src="Csharp.png">
+  <h6>C#</h6>
+</div>
+
+  <p class="domaine">
+  Je m'intéresse à:
+</p>
+<div class="tech">
+  <img class="machine_learning" src="machine_learning.png">
+  <h6>Le machine learning et l'intélligence artificielle</h6>
+</div>
+<div class="tech">
+  <img class="vr" src="vr.png">
+  <h6>La réalité virtuelle et le métavers</h6>
+</div>
+<div class="tech">
+  <img class="quantum" src="quantum.png">
+  <h6>l'informatique quantique</h6>
+</div>
+
+<script src="script.js"></script>
+<div id="vanta"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#vanta",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x134347,
+  backgroundColor: 0xb8e0e3,
+  points: 10.00,
+  maxDistance: 25.00,
+  spacing: 16.00,
+})
+</script>
+
+</body>
+</html>
